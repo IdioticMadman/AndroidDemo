@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,3">
+
+    <TextView
+
+        android:background="@drawable/table_frame_gray"
+        android:gravity="center_horizontal"
+        android:text="上海民防工程参与方基本信息"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="净高" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="净高" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="纵长" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="纵长" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="测绘面积" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="测绘面积" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="掩蔽面积" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="掩蔽面积" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+
+            android:text="口部数" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="口部数" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="覆土厚度" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="覆土厚度" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程状况" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="工程状况" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="完好类别" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="完好类别" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程状况" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="工程状况" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="完好类别" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="完好类别" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="建档编号" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="建档编号" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="归档日期" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="归档日期" />
+
+    </TableRow>
+
+</TableLayout>

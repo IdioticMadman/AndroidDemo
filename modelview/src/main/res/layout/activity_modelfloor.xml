@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/mainwinbg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_aty_modelfloor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp">
+
+        <ImageView
+            android:id="@+id/iv_aty_modelfloor_choise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/ic_floor_choice"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_aty_modelfloor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="全选"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/line"/>
+
+    <ListView
+        android:id="@+id/lv_aty_modelfloor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/translation"
+        android:dividerHeight="1px"
+        android:listSelector="@null"/>
+
+</LinearLayout>

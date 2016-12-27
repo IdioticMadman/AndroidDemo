@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1">
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="报建编码" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="所在区县" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="民防项目编号" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程性质" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="配置文件" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="联系人" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_span="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="项目负责人" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="项目负责人" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="项目经理" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="项目经理" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="项目经理" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_span="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="邮政编码" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="联系电话" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_span="1"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_span="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/table_item_gray"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="建安工作量 (万元)" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="8dp"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_column="1"
+            android:layout_span="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/table_item_gray"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="其中安装工作量 (万元)" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="8dp"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="8dp"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_span="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.94"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="合同竣工日期" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="平时用途" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="战时用途" />
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="基坑深度" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

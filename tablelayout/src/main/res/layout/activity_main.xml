@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="8dp">
+
+        <include layout="@layout/table_protect_basic_info" />
+
+        <include layout="@layout/table_protect_basic_use_info" />
+
+        <include layout="@layout/table_protect_basic_partake_info" />
+
+        <include layout="@layout/table_protect_connect_info" />
+    </LinearLayout>
+</ScrollView>

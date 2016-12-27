@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pacific.example.RecyclerViewFragment">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_explore"
+        style="@style/match_match"
+        android:paddingLeft="@dimen/padding_item_menu"
+        android:paddingRight="@dimen/padding_item_menu"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>

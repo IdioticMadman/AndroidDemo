@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/model_scan"
+        android:icon="@drawable/ic_scan_n"
+        android:orderInCategory="80"
+        android:title="@string/scan"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/model_choice_floor"
+        android:icon="@drawable/ic_choisefloors"
+        android:orderInCategory="80"
+        android:title="@string/choice_floor"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/model_full_screen"
+        android:icon="@drawable/ic_full_screen"
+        android:orderInCategory="80"
+        android:title="@string/fullscreen"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

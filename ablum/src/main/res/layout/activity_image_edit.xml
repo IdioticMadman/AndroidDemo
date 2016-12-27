@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313" >
+
+    <LinearLayout
+        android:id="@+id/drawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/menu_bar"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <net.ezbim.bimoms.phone.widget.drawingboard.DrawingBoardView
+            android:id="@+id/drawView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </net.ezbim.bimoms.phone.widget.drawingboard.DrawingBoardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:background="#171616"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingTop="16dp" >
+
+        <SeekBar
+            android:id="@+id/sb_pen_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:max="2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+            <RadioGroup
+                android:id="@+id/rg_actions"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_menu_pen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:button="@drawable/rb_imgdraw_menu_pen"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rb_menu_eraser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:background="@null"
+                    android:button="@drawable/rb_imgdraw_menu_eraser" />
+            </RadioGroup>
+
+            <ImageButton
+                android:id="@+id/imgbtn_menu_rotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/imgbtn_imgdraw_rotate" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_menu_redraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:background="@drawable/imgbtn_imgdraw_reset" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#171616"
+        android:gravity="center_vertical"
+        android:scrollbars="none" >
+
+        <RadioGroup
+            android:id="@+id/rg_color"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="12dp" >
+
+            <RadioButton
+                android:id="@+id/rb_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:button="@drawable/rb_imgdraw_blue"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rb_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:button="@drawable/rb_imgdraw_red" />
+
+            <RadioButton
+                android:id="@+id/rb_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:button="@drawable/rb_imgdraw_yellow" />
+
+            <RadioButton
+                android:id="@+id/rb_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:button="@drawable/rb_imgdraw_green" />
+
+            <RadioButton
+                android:id="@+id/rb_pink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@null"
+                android:button="@drawable/rb_imgdraw_pink" />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:src="@drawable/imgdraw_cancel" />
+
+    <ImageView
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:src="@drawable/imgdraw_ok" />
+
+</RelativeLayout>

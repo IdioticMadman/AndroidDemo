@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/table_item_gray"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="报监资料" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:shrinkColumns="0"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(1)工程项目IC卡" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(2)上海市建设工程安全质量监督申报表" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(3)上海市民防建设工程安全质量监督申报表" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(4)民防部门审查（总体设计文件阶段）意见单\n或民防部门审查（初步设计阶段）意见单" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(5)民防工程施工图审查意见书及民防工程\n平战转换工作量概况表" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(6)民防施工图审查意见设计修改通知单" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(7)施工中标通知书" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/table_item_gray"
+                android:gravity="left"
+                android:text="(8)监理中标通知书" />
+
+            <TextView
+                style="@style/table_item_white"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

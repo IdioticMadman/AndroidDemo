@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="1"
+        android:icon="@mipmap/add"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/grid_horizontal"
+        android:orderInCategory="2"
+        android:title="@string/grid_horizontal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/grid_vertical"
+        android:orderInCategory="2"
+        android:title="@string/grid_vertical"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/linear_horizontal"
+        android:orderInCategory="2"
+        android:title="@string/linear_horizontal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/linear_vertical"
+        android:orderInCategory="2"
+        android:title="@string/linear_vertical"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/flow"
+        android:orderInCategory="2"
+        android:title="@string/flow"
+        app:showAsAction="never" />
+
+</menu>

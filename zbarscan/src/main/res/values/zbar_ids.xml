@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="zbar_auto_focus" type="id"/>
+    <item name="zbar_decode" type="id"/>
+    <item name="zbar_decode_failed" type="id"/>
+    <item name="zbar_decode_succeeded" type="id"/>
+    <item name="zbar_restart_preview" type="id"/>
+    <item name="zbar_quit" type="id"/>
+
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,3">
+
+    <TextView
+
+        android:background="@drawable/table_frame_gray"
+        android:gravity="center_horizontal"
+        android:text="上海民防工程基本信息"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程名称 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="巡查工程" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程编号 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="工程名称" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程地址 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="工程地址" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="所在区县 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="所在区县" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+
+            android:text="工程类别 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="工程类别" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="区县代码" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="区县代码" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="建设状态 *" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="建设状态" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="建设时间" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="建设时间" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="防护等级" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="防护等级" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="防化等级" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="防化等级" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="战时用途" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="战时用途" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="平时业态" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="平时业态" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="民防建筑面积" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="民防建筑面积" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="使用面积" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="使用面积" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="战时通风" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="战时通风" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="配置文件" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="配置文件" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="结构类别" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:layout_span="3"
+            android:text="结构类别" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="工程类型" />
+
+        <TextView
+            android:id="@+id/tv_project_class1"
+            style="@style/table_item_white"
+            android:layout_span="3"
+            android:text="战时通风" />
+
+    </TableRow>
+
+</TableLayout>

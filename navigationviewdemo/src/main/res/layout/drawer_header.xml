@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navdrawer_image_height">
+
+    <ImageView
+        android:id="@+id/navigation_image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/navdrawer_image_height"
+        android:contentDescription="@string/cd_navdrawer_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_material_design" />
+
+
+    <TextView
+        android:id="@+id/tv_view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_user_email"
+        android:text="pareshmayani@gmail.com"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_view_email"
+        android:layout_marginLeft="@dimen/margin_user_layout"
+        android:layout_marginRight="@dimen/margin_user_layout"
+        android:layout_marginTop="@dimen/margin_user_name"
+        android:text="Paresh Mayani"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

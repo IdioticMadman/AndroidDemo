@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,3">
+
+    <TextView
+        android:background="@drawable/table_frame_gray"
+        android:gravity="center_horizontal"
+        android:text="上海民防工程使用基本信息"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="责任街道" />
+
+        <TextView
+            android:id="@+id/tv_project_name"
+            style="@style/table_item_white"
+            android:text="责任街道" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="责任街道代码" />
+
+        <TextView
+            android:id="@+id/tv_project_id"
+            style="@style/table_item_white"
+            android:text="责任街道代码" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="地下层数" />
+
+        <TextView
+            android:id="@+id/tv_project_addr"
+            style="@style/table_item_white"
+            android:text="地下层数" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="所属楼层" />
+
+        <TextView
+            android:id="@+id/tv_project_country"
+            style="@style/table_item_white"
+            android:text="所属楼层" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="市政坐标点" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="3">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_weight="1"
+                    android:text="坐标X" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_weight="5"
+                    android:text="坐标X" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/table_item_gray"
+                    android:layout_weight="1"
+                    android:text="坐标Y" />
+
+                <TextView
+                    style="@style/table_item_white"
+                    android:layout_weight="5"
+                    android:text="坐标X" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="IC卡号" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="IC卡号" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="信息登记号" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="信息登记号" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="所属大网络" />
+
+        <TextView
+            android:id="@+id/tv_protect_level"
+            style="@style/table_item_white"
+            android:text="所属大网络" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="物业管理单" />
+
+        <TextView
+            android:id="@+id/tv_chemistry_level"
+            style="@style/table_item_white"
+            android:text="物业管理单" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="ID" />
+
+        <TextView
+            android:id="@+id/tv_fight_for"
+            style="@style/table_item_white"
+            android:text="ID" />
+
+        <TextView
+            style="@style/table_item_gray"
+            android:text="街道指挥所" />
+
+        <TextView
+            android:id="@+id/tv_daily_status"
+            style="@style/table_item_white"
+            android:text="街道指挥所" />
+
+    </TableRow>
+
+</TableLayout>

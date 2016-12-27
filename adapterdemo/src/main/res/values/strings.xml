@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PacificAdapter</string>
+    <string name="title_activity_main">ListView</string>
+    <string name="action_notify">ViewPagerAdapter</string>
+    <string name="action_about">FragmentPagerAdapter2</string>
+    <string name="action_logout">FragmentStatePagerAdapter2</string>
+
+    <string name="title_navigation_fragment">ListView</string>
+    <string name="title_setting_fragment">ExpandableListView</string>
+    <string name="title_explore_fragment">RecyclerView</string>
+    <string name="title_explore_fragment2">Others</string>
+
+    <string name="smart_ticket">EventBus</string>
+    <string name="auto_lock">RxJava</string>
+    <string name="check_device">Dagger</string>
+    <string name="e_key">Volley</string>
+    <string name="helper">Retrofit</string>
+    <string name="security_monitor">RxAndroid</string>
+    <string name="check_state">Android</string>
+    <string name="work_instruction">IOS</string>
+    <string name="web">Web</string>
+    <string name="repair_manage">Sort</string>
+    <string name="snack_logout">one more press to exit</string>
+    <string name="close">close</string>
+
+</resources>

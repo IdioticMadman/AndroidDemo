@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="linear_vertical">线性垂直布局</string>
+    <string name="linear_horizontal">线性水平布局</string>
+    <string name="grid_vertical">网格垂直布局</string>
+    <string name="grid_horizontal">网格水平布局</string>
+    <string name="flow">流式布局</string>
+    <string name="add">添加</string>
+</resources>

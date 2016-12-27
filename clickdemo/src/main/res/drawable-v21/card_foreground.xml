@@ -1,0 +1,19 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#bfcc1f1f">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="#14d6b409" />
+                </shape>
+            </item>
+            <item
+                android:state_enabled="true"
+                android:state_focused="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="#0f000000" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

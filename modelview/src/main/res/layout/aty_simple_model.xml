@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <net.ezbim.modelview.EBIMView
+        android:id="@+id/aty_simple_model_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/frg_mainmodel_footmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        >
+        <ImageView
+            android:id="@+id/iv_frg_mainmodel_resetmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="onResetModel"
+            android:src="@drawable/btn_resetmodel"
+            />
+        <ImageView
+            android:id="@+id/iv_frg_mainmodel_choicemajor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="onChoiceMajor"
+            android:src="@drawable/btn_viewport_chiose"
+            />
+
+        <ImageView
+            android:id="@+id/iv_frg_mainmodel_choicefloor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="onChoiceFloor"
+            android:src="@drawable/btn_floor_choice"
+            />
+        <ImageView
+            android:id="@+id/btn_mainmodel_entity_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCancel"
+            android:src="@drawable/btn_modle_reset" />
+        <ImageView
+            android:id="@+id/btn_mainmodel_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="onScan"
+            android:src="@drawable/btn_scan" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Model</string>
+    <string name="ok">确定</string>
+    <string name="choice_floor">选择楼层</string>
+    <string name="scan">扫描</string>
+    <string name="fullscreen">全屏</string>
+    <string name="model">模型</string>
+</resources>

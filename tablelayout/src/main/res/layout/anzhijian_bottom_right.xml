@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(9)民防工程监理资质（资格）证书" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(10)建设工程安全质量人员从业资格审查表" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(11)民防工程建筑施工平面图" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(12)地面总体平面图\n" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(13)危险性较大分部分项工程清单申报表\n" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="(14)建筑垃圾和工程渣土处置证" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_gray"
+            android:gravity="left"
+            android:text="质监档案编号" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/table_item_white"
+            android:gravity="left"
+            android:text="" />
+
+        <TextView
+            style="@style/table_item_white"
+            android:text="" />
+    </TableRow>
+
+</TableLayout>
